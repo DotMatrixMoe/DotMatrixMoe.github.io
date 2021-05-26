@@ -1,90 +1,132 @@
-<DOCTYPE html>
-
-<html style="background-color: black;">
-	<body style="margin: 0; padding: 0;">
+<!DOCTYPE html>
 	
-		<style>
-			@font-face {
-				font-family: road-rage;
-				src: url(https://download2267.mediafire.com/hz3e529k252g/eis0hjle14e4vhu/Road_Rage.otf);
+	<html>
+		<body style="margin: 0; padding: 0;">
+			<style>
+			
+				@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+			
+				@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+				
+				.white-text {
+				color: white;
 				}
 				
-			@font-face {
-			font-family: roboto-mono;
-			src: url(https://download1650.mediafire.com/aj9z0ioeynyg/sjnm1icu6k8noil/RobotoMono-VariableFont_wght.ttf);
-			}
-				
-			html {
-				padding: 0;
-				margin: 0;
-				overflow: auto;
+				html {
 				scroll-behavior: smooth;
 				}
-		</style>
-	
-		<header style="padding: 25px; background-color: #B90E0A; width: 50%; position: fixed; opacity: 0.9;">
-			<p style="font-family: road-rage; font-size: 35px; color: white; width:100%;"> VOLCANOES! </p>
-		</header>
+				
+				a {
+				padding: 10px 20px 10px 20px;
+				word-wrap: normal;
+				display: inline-block;
+				color: black;
+				}
+			
+				a:visited {
+				color:black;
+				text:-decoration: none;
+				}
+				
+				a:hover { 
+				background-color: #48AAAD;
+				color: white;
+				}
+				
+				.header {
+				background-color: #016064;
+				}
+				
+				.menu-button {
+				background-color: #4CAF50; /* Green */
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				font-family: Roboto;
+				}
+				
+				.no-bullets {
+				list-style-type: none; /
+				}
+				
+				.link-light {
+				font-color: white;
+				background-color: none;
+				}
+			</style>
+			
+			<script>
+			function menuSpace() {
+			var x = document.getElementById("menu");
+			if (x.style.display === "none") {
+			x.style.display = "block";
+			} else {
+			x.style.display = "none";
+			}
+			}
+			</script>
 		
-		<img src="https://www.thoughtco.com/thmb/RvU_4FHKmqJe691ZsLZCQSpMqmU=/2260x1271/smart/filters:no_upscale()/GettyImages-608873707-f359835d93ea4f0b95a50cbeeb839c05.jpg" style="text-align: center;">
-	
-		<!-- Division name is self explanatory. Introduction will be written here. --> 
-			<div id="intro">
-				<h3 style="font-family: road-rage; font-size: 35px; color: white; padding: 20 0 5 40;">So, What's the Big Deal?</h3>
-				<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45"> Volcanoes are typically known for its disasterous effects on the land surrounding it. In many movies, houses are engulfed in its lava, and hundreds of people are killed! Though it may seem simple from the outside, these beasts do much more than meets the eye.  
-		Join me, and we'll explore the volcanoes' nature and how they <strong>really</strong> work!</p>
-		</div>
-		<!-- Division dedicated to explaining the definition of a volcano -->
-		<div id="definition"> 
-			<h3 style="font-family: road-rage; font-size: 35px; color: white; padding: 20 0 5 40;">What Are they Exactly?</h3>
-			<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45;">Volcanoes are gaps between two tetonic plates. Inside those gaps, there are tons of molten rocks known as <strong>magma</strong>. It's a result of a divergent boundary making a big enough opening for magma to come out of. They can be the tallest mountain, or the smallest hill. Heck, they can even be underwater! 
-            <center>
-			<img src="https://www.armstrongeconomics.com/wp-content/uploads/2018/01/Underwater-Volcanoes.jpg" style="width: 1000px;">	
-			<p style="font-family: roboto-mono; color: gray; font-size: 16px; padding: 7 0 0 0"> Undewater volcano splurging tons of hot gasses! Courtesy of Discovery News.</p>
-			</center> 
-			<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45">No matter the size or place, they can be extremely dangerous! And they're definitely something you shouldn't touch. Lava can get as hot as 1,000 degrees Celcius, you know!</p>
-		</div>
-		<!--Division dedicated to explaining how a volcano works.-->
-		<div id="process">
-			<h3 style="font-family: road-rage; font-size: 35px; color: white; padding: 20 0 5 40;">Alright, Then. How do they Work?</h3>
-			<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45">The burning of the rocks creates excess gasses such as carbon dioxide, sulfer dioxide, hydrogen sulfide, and hydrogen halides. They build up between the rocks, putting more and more pressure in the volcano. Once it reaches its peak, the magma comes splurging out, and sometimes... <strong>EXPLODE!</strong> See this video of a volcanic eruption!</p>
+			<div class="header" style="padding: 30px;">
+				<header style="background-color: #016064;">
+			     <p class="white-text" style="font-family: Roboto; font-size: 23px;">The Mid-Atlantic Ridge</p>
+				</header>
+			</div>
+			
+			<div>
+				<p id="menu"  class="menu" style="font-family: Roboto; font-size: 23px;"><a  style="text-decoration: none;" href="#about">About</a><a  style="text-decoration: none;" href="#geometry">Geometry</a><a  style="text-decoration: none;" href="#fun-facts">Fun-Facts!</a><a style="text-decoration: none;" href="#sources" >Sources</a></p>
+			</div>
+			<img src="https://images.rove.me/w_1920,q_85/l44gjc4cy2nk6bxboes3/iceland-snorkelling-and-diving-in-the-mid-atlantic-ridge.jpg">
+			
+		<!-- Beginning of group work -->
+		    <div id="about">
+			<h3 style="font-family: Roboto; font-size: 90px; text-indent: 50px;">About</h3>
+			<p style="font-size: 30px; font-family:'Open Sans'; padding:0px 45px 0px 45px;">The Mid-Atlantic Ridge is the consequence of two plates diverging from each other, causing a gap between the two. Diverging for centuries, this ridge is about 620-932 miles wide! Explore with me, and find out: How did it form in the first place? Spoiler alert, it's complicated!
+			</p>   
+		    </div>
+
+			
+			<div id="geometry">
+			<h3 style="font-family: Roboto; font-size: 90px; text-indent: 50px;">Geometry</h3>
 			<center>
-				<video style="width: 1000;" controls>
-					<source src="https://download1644.mediafire.com/css1e7jnodmg/1wwr1v3fbuhxdal/Volcano+Eruption+in+Papua+New+Guinea.mp4" type="video/mp4">
-				</video>
-				<p style="font-family: roboto-mono; color: gray; font-size: 16px; padding: 7 0 0 0">Uploaded by Abyssius on Youtube.</p>
+			<img style="width: 1400px;" src="https://s2.thingpic.com/images/UH/EtHFHeiwzhepwXmNdeeSCRrm.png">
 			</center>
-			<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45">If you were able to see the video, you saw the gasses quickly emerged from out the volcano, and release lots of pressure. (That loud sound was the pressure. Crazy, right?)
-		</div>
-		<!-- Extra facts I learned in my research -->
-		<div id="extra-info">
-			<h3 style="font-family: road-rage; font-size: 35px; color: white; padding: 20 0 5 40;">Tell us more!</h3>
-			<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45">A famous erruption in the volcano, Mount Vesuvius, occured in 79 AD. It was huge, and killed hundreds of people! Pompeii and Herculeaneum were not safe, as they were almost or completly englufed by the lava! Fossils of Pompeii's residents are still safe beneath our ground. Did you also know that most of Earth was once a volcano? Because of its many eruptions, it eventually created the sea floor we are famaliar with. Bet you didn't expect that, huh.
-		</div>
-		<!-- My conclusion -->
-		<div id="conclusion">
-			<h3 style="font-family: road-rage; font-size: 35px; color: white; padding: 20 0 5 40;"> Conclusion </h3> 
-			<p style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45">That's the end of our journey! I hope you enjoyed the article as much as I did! It was a lot of fun. You're officially a volcano genuis!</p>
-		</div>
-		<!-- Links to the articles I used -->
-		<div id="sources">
-			<h3 style="font-family: road-rage; font-size: 35px; color: white; padding: 20 0 5 40;">Sources</h3>
-			<li><a style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45" href="https://www.usgs.gov/faqs/how-do-volcanoes-erupt?qt-news_science_products=0#qt-news_science_products">USGS Volcano Article</a></li>
-			<li><a style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45" href= "https://www.dkfindout.com/us/earth/volcanoes/where-are-earths-volcanoes/">Volcanoes' locations</a></i>
-			<li><a style="font-family: roboto-mono; color: white; font-size: 20px; padding: 0 45 0 45" href="https://www.bbc.co.uk/newsround/16444327">BBC Volcano Article</a>
-		<center>
-			<footer style="font-family: roboto-mono; color: gray; font-size: 16px; padding: 7 0 0 0"> Programmed and written by Javier Moe. Resources used are not my own, and belong to their proper owner. All rights reserved.</footer>
-		</center>
-	</body>
-</html>
-	
-	
-	
-	
-	
-	
-
-
+			<p style="font-size: 30px; font-family:'Open Sans'; padding:0px 45px 0px 45px;">The Divergent boundary is divided up against the South American Plate and the African plate. The tectonic plate includes the continent of South America as well as sizable region of the Atlantic Ocean. It expands more than 10,000 miles toward the African plate, which forms the entirety of the south of the ridge. Therefore the feature location of the South American and African plates are located at the Atlantic Ocean.
+</p>
+			</div>
+			
+			<div id="fun-facts">
+			<h3 style="font-family: Roboto; font-size: 90px; text-indent: 50px;">Fun-Facts!</h3>
+			<p style="font-size: 30px; font-family:'Open Sans'; padding:0px 45px 0px 45px;">Here are so pretty interesting facts about the Mid-Atlantic Ridge!</p>
+			<ul style="font-size: 30px; font-family:'Open Sans'; padding:0px 0px 0px 90px;">
+				<li>Because of the separation of the tectonic plates, it releases magma from the mantle. This also forms a new oceanintal crust in the ocean floor.</li>
+				<li>The Mid-Atlantic Ridge is mostly below water at about 87 degrees North 333km south of the North Pole to sub Antarctic Bourvet island at 54 degrees South.</li>
+				<li>This feature is known to be important due to crusts formed by the ridge. It helps keep a healthy amount of seafloor in the ocean.</li>
+			</ul>
+			</div>
+		<!-- Sources will be put here -->
+			<div id="sources">
+			<h3 style="font-family: Roboto; font-size: 90px; text-indent: 50px;">Sources</h3>
+			<ul style="font-size: 30px; font-family:'Open Sans'; padding:0px 0px 0px 60px;" class="no-bullets">
+				<li><a href="https://images.rove.me/w_1920,q_85/l44gjc4cy2nk6bxboes3/iceland-snorkelling-and-diving-in-the-mid-atlantic-ridge.jpg">https://images.rove.me/w_1920,q_85/l44gjc4cy2nk6bxboes3/iceland-snorkelling-and-diving-in-the-mid-atlantic-ridge.jpg</a><li>
+				<li><a href="https://s2.thingpic.com/images/UH/EtHFHeiwzhepwXmNdeeSCRrm.png">https://s2.thingpic.com/images/UH/EtHFHeiwzhepwXmNdeeSCRrm.png</a><li>
+				<li><a href="https://www.geolsoc.org.uk/Plate-Tectonics/Chap3-Plate-Margins/Divergent/Mid-Atlantic-Ridge
+">https://www.geolsoc.org.uk/Plate-Tectonics/Chap3-Plate-Margins/Divergent/Mid-Atlantic-Ridge
+</a><li>
+			</ul>
+			</div>
+			
+			<footer style="font-family:'Open Sans'; text-align:center; padding:20px;"> 
+			<strong>Programmed by Javier Moe. Written by Azariah Kirton, Za'Niyah Daniels and Katelyn Hinds.</strong>
+			</footer>
+			
 		
 	</html>
+	
+
+
+		
 	
