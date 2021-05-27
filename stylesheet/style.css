@@ -11,7 +11,8 @@ src: url(fonts/RobotoMono-VariableFont_wght.ttf);
 @font-face {
 font-family: hvd-peace;
 src: url(fonts/HVD_Peace.tff);
-				
+}
+
 html {
 margin: 0;
 overflow: auto;
