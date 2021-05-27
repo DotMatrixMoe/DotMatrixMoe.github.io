@@ -1,16 +1,16 @@
 @font-face {
 font-family: road-rage;
-src: url(fonts/Road_Rage.otf);
+src: url(./fonts/Road_Rage.otf);
 }
 				
 @font-face {
 font-family: roboto-mono;
-src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+src: url(./fonts/RobotoMono-VariableFont_wght.ttf);
 } 
 			
 @font-face {
 font-family: hvd-peace;
-src: url(fonts/HVD_Peace.tff);
+src: url(./fonts/HVD_Peace.tff);
 }
 
 html {
