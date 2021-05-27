@@ -1,0 +1,55 @@
+<DOCTYPE css>
+
+  @font-face {
+	  font-family: road-rage;
+		src: url(fonts/Road_Rage.otf);
+		}
+				
+	@font-face {
+		font-family: roboto-mono;
+		src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+		} 
+			
+	@font-face {
+	  font-family: hvd-peace;
+		src: url(fonts/HVD_Peace.tff);
+				
+	html {
+	  padding: 0;
+		margin: 0;
+		overflow: auto;
+		scroll-behavior: smooth;
+		}
+			
+	.header {
+	 font-family: road-rage;
+	 font-size: 35px;
+	 color: white;
+	 width:100%;
+	 }
+		
+	.heading {
+	 font-family: road-rage, hvd-peace;
+	 font-size: 35px;
+ 	 color: white;
+	 padding: 20 0 5 40;
+	 }
+			
+	 .normal-text {
+		font-family: roboto-mono;
+		color: white;
+		font-size: 20px;
+		padding: 0 45 0 45;
+		}
+			
+	  .caption {
+		 font-family: roboto-mono;
+		 color: gray;
+		 font-size: 16px;
+		 padding: 7 0 0 0;
+		 }
+
+    .auto-adjust {
+     width: 100%;
+     height: auto;
+     }
