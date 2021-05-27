@@ -14,9 +14,9 @@ src: url(fonts/HVD_Peace.tff);
 }
 
 html {
-margin: 0;
+margin: 0px;
 overflow: auto;
-padding: 0;
+padding: 0px;
 scroll-behavior: smooth;
 }
 			
@@ -38,14 +38,14 @@ padding: 20 0 5 40;
 color: white;
 font-family: roboto-mono;
 font-size: 20px;
-padding: 0 45 0 45;
+padding: 0px 45px 0px 45px;
 }
 			
 .caption {
 color: gray;
 font-family: roboto-mono;
 font-size: 16px;
-padding: 7 0 0 0;
+padding: 7px 0px 0px 0px;
 }
 
 .auto-adjust {
