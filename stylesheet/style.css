@@ -13,41 +13,41 @@ font-family: hvd-peace;
 src: url(fonts/HVD_Peace.tff);
 				
 html {
-padding: 0;
 margin: 0;
 overflow: auto;
+padding: 0;
 scroll-behavior: smooth;
 }
 			
 .header {
+color: white;
 font-family: road-rage;
 font-size: 35px;
-color: white;
 width:100%;
 }
 		
 .heading {
+color: white;
 font-family: road-rage, hvd-peace;
 font-size: 35px;
-color: white;
 padding: 20 0 5 40;
 }
 			
 .normal-text {
-font-family: roboto-mono;
 color: white;
+font-family: roboto-mono;
 font-size: 20px;
 padding: 0 45 0 45;
 }
 			
 .caption {
-font-family: roboto-mono;
 color: gray;
+font-family: roboto-mono;
 font-size: 16px;
 padding: 7 0 0 0;
 }
 
 .auto-adjust {
-width: 100%;
 height: auto;
+width: 100%;
 }
